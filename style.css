@@ -1,0 +1,106 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* العنوان */
+h1 {
+    color: #0077cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* الفقرة */
+p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* الرابط */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005599;
+    text-decoration: underline;
+}
+
+/* الصورة */
+img {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* الفيديو والصوت */
+video,
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* القوائم */
+ul,
+ol {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* النموذج */
+form {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* التسميات */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* الحقول */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* زر الإرسال */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005599;
+}
